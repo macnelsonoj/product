@@ -132,8 +132,14 @@ justify-content: center;
 }
 
 .pri{
+ padding-bottom: 5px;
+ width: 5%;
+ border-radius: 5px;
+ padding-left: 5px;
    font-weight: bold;
+   background-color: rgba(248, 43, 7, 0.096);
     margin-left: 15px;
+    height: 2vh;
     padding-top: 8px;
     color: rgb(248, 45, 7);
     font-size: small;
@@ -148,7 +154,12 @@ justify-content: center;
     align-items: center;/* justify-content:center; */
 }
 .num{
-    padding-left: 5px;
+    background-color: rgba(248, 43, 7, 0.096);
+    padding-left: 10px;
+    width: 25%;
+    border-radius: 10px;
+    padding-top: 5px;
+    height: 4vh;
     word-spacing:25px;
 font-weight: bold;
 }
