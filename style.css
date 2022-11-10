@@ -4,6 +4,7 @@ header{
     justify-content: center;
 }
 nav{
+    box-shadow: 0px 1px 3px 0.1px;
     width: 90%;
     justify-content: space-between;
     display: flex;
@@ -69,7 +70,7 @@ justify-content: center;
 }
 .first img{
     height: 45vh;
-    border-radius: 10px;
+    border-radius: 12px;
     width: 90%;
 }
 .others{
@@ -82,20 +83,28 @@ justify-content: center;
     height: 11vh;
     width: 20%;
     display: flex;
-    border-radius: 10px;
+    border-radius: 15px;
 }
-
+.white{
+    background-image: url(/img/sneakers.jpg);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.658);
+    background-blend-mode: overlay;
+    border: 3px solid rgba(248, 43, 7, 0.575);
+}
 
 
 .article{
     /* background-color: pink; */
     font-family:roboto;
     width: 50%;
+    height:50vh;
     color: gray;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
+
 .sc{
     font-size: 12px;
     padding-top: 10px;
